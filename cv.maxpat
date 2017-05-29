@@ -2079,7 +2079,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 98.666664, 85.0, 32.0, 18.0 ],
+					"patching_rect" : [ 98.666664, 85.0, 32.0, 20.0 ],
 					"style" : "",
 					"text" : "sel 1"
 				}
@@ -2168,9 +2168,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 43.5, 135.0, 143.0, 20.0 ],
+					"patching_rect" : [ 43.5, 135.0, 131.0, 20.0 ],
 					"style" : "",
-					"text" : "cv.jit.grab 320 240 @unique 1"
+					"text" : "jit.grab 320 240 @unique 1"
 				}
 
 			}
@@ -2540,12 +2540,6 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "cv.jit.grab.maxpat",
-				"bootpath" : "C74:/patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "cv.jit.ravg.mxe",
 				"type" : "iLaF"
 			}
